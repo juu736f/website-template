@@ -1,0 +1,89 @@
+body {
+    background-color:#000000;
+}
+
+.title h1, h2, h3, h4, h5, h6, p {
+    font-family:"Rubik";
+    color:white;
+    
+}
+
+.card {
+    display:block;
+    background-color: #262626;
+    padding:20;
+}
+
+.card h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: white;
+}
+
+.card p {
+    text-align: center;
+    color: #9a9a9a;
+}
+
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20px;
+}
+
+.topic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding:20;
+    color:white;
+}
+
+.content {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left:20;
+    padding-right:20;
+}
+
+.content p {
+    text-align:justify;
+    color:#928e8e   
+}
+
+.copyright p {
+    font-family: Rubik;
+    color: rgba(255,255,255,0.3);
+    text-align: center;
+}
+.flag {
+    position:fixed;
+    right: 0;
+}
+
+.indexparent {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.indexlink {
+    background-color: grey;
+    display: inline-block;
+    justify-content: center;
+    align-items: center;   
+}
+.indexlink h3 {
+    font-family: Rubik;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding-left:10;
+    padding-right:10;
+}
+
+/* div {
+    border-color:red;
+    border-style:solid;
+}
+*/
